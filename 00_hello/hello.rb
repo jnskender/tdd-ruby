@@ -1,8 +1,8 @@
-#write your code here
+# write your code here
 def hello
-  "Hello!"
+    'Hello!'
 end
 
-def greet person
-  "Hello, " + "#{person}" + "!"
+def greet(person)
+    'Hello, ' + person.to_s + '!'
 end
